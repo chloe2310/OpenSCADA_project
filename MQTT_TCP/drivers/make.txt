@@ -1,0 +1,13 @@
+obj-m += led_driver.o dht11.o
+
+KDIR := /home/trungnm/BBB/beagle_bone_black/bb-kernel/KERNEL
+PWD := $(shell pwd)
+ARCH := arm
+
+CROSS_COMPILE := arm-linux-gnueabihf-
+
+all:
+	$(MAKE) -C $(KDIR) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) M=$(PWD) modules
+
+clean:
+	rm -f *.o *.ko *.mod.* *.symvers *.order 
