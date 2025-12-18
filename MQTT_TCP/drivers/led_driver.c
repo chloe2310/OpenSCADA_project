@@ -183,5 +183,5 @@ module_init(led_init);
 module_exit(led_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("ADMIN");
+MODULE_AUTHOR("Chloe");
 MODULE_DESCRIPTION("Điều khiển LED qua /dev/led0 sử dụng ioremap");
