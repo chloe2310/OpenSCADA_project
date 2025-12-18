@@ -7,7 +7,7 @@
 #include <linux/io.h>
 #include <linux/delay.h>
 
-#define DRIVER_AUTHOR "trungpro"
+#define DRIVER_AUTHOR "Chloe"
 #define DRIVER_DESC   "DHT11 driver"
 #define DRIVER_VERS   "1.0"
 
