@@ -1,3 +1,8 @@
+Thực hiện bởi :
+Nguyễn Minh Trung - B21DCDT226
+Trần Đức Hưng - B21DCDT106 
+
+
 Room Temperature Monitoring using Modbus TCP, MQTT & OpenSCADA
 Overview
 
